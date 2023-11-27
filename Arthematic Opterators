@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num1,num2,sum,product,subtraction,quotiont,modulus;
+    
+    cout<<"Enter first number: ";
+    cin>>num1;
+    cout<<"Enter second number: ";
+    cin>>num2;
+    sum=num1+num2;
+    product=num1*num2;
+    quotiont=num1/num2;
+    subtraction=num1-num2;
+    modulus=num1%num2;
+    
+    cout<<sum<<endl <<subtraction<<endl<< product<<endl<<quotiont<<endl<<modulus<<endl;
+
+    return 0;
+}
